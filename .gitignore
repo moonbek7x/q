@@ -1,0 +1,10 @@
+__pysache__
+*.py[oc]
+build/
+wheels/
+dist/
+*.egg-info
+
+.venv
+.env
+uv.lock
