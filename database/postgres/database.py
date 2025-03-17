@@ -25,6 +25,7 @@ AsyncSessionLocal = async_sessionmaker(
 
 
 
+
 class Base(DeclarativeBase):
     id: Mapped[int] = mapped_column(BigInteger(), primary_key=True, autoincrement=True)
 
